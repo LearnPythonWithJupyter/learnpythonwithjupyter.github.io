@@ -1198,9 +1198,9 @@ section {
   font-weight: 600;
   font-size: 18px;
   letter-spacing: 1px;
-  width: 275px; /* Fixed width for the buttons */
   display: inline-block;
-  padding: 14px 40px;
+  padding: 14px 10px; /* padding */
+  width: 250px; /* Fixed width for the buttons */
   border-radius: 0px;
   transition: 0.5s;
   margin-top: auto;
@@ -1209,6 +1209,7 @@ section {
   outline: none; /* Remove the outline */
   border: none;
   text-align: center;
+  margin-left: 5px;
 }
 
 /* Style for the container that holds the buttons */
