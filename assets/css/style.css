@@ -1199,7 +1199,7 @@ section {
   font-size: 18px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 14px 10px; /* padding */
+  padding: 14px 0px; /* padding */
   width: 250px; /* Fixed width for the buttons */
   border-radius: 0px;
   transition: 0.5s;
