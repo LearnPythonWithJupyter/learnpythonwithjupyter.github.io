@@ -466,37 +466,6 @@ section {
   margin-bottom: 0;
 }
 
-.announcement {
-  font-family: 'Raleway', sans-serif;
-  font-size: 32px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  position: relative;
-  color: #3c3c3b;
-}
-.announcement::before {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 120px;
-  height: 1px;
-  background: #ddd;
-  bottom: 1px;
-  left: calc(50% - 60px);
-}
-.announcement::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 40px;
-  height: 3px;
-  /* background: #ed6c4f; */
-  bottom: 0;
-  left: calc(50% - 20px);
-}
-
 
 
 
