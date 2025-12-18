@@ -1,688 +1,596 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
 
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SMB9YNHT28"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SMB9YNHT28"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-SMB9YNHT28');
-</script>
+    gtag('config', 'G-SMB9YNHT28');
+  </script>
 
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Learn Python with Jupyter</title>
-  <meta content="Learn Python with Jupyter. The book that develops computational thinking, explains syntax, and has plenty of exercises. With Jupyter Notebooks and GitHub community" name="description">
-  <meta content="Learn Python with Jupyter. The book that develops computational thinking, explains syntax, and has plenty of exercises. With Jupyter Notebooks and GitHub community" name="keywords">
+    <title>Learn Python with Jupyter</title>
+    <meta content="Learn Python with Jupyter. The book that develops computational thinking, explains syntax, and has plenty of exercises. With Jupyter Notebooks and GitHub community" name="description">
+    <meta content="Learn Python with Jupyter. The book that develops computational thinking, explains syntax, and has plenty of exercises. With Jupyter Notebooks and GitHub community" name="keywords">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style_orange.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style_orange.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: MyResume - v4.6.0
-  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <!-- =======================================================
+    * Template Name: MyResume - v4.6.0
+    * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
 
-  <!-- =======================================================
-  COOKIES
-  - YouTube video: https://www.youtube.com/watch?v=apMbrT7qGFM
-  - Create policy: https://www.cookiepolicygenerator.com/
-  - Create code below: https://www.websitepolicies.com/
-  ======================================================= -->
+    <!-- =======================================================
+    COOKIES
+    - YouTube video: https://www.youtube.com/watch?v=apMbrT7qGFM
+    - Create policy: https://www.cookiepolicygenerator.com/
+    - Create code below: https://www.websitepolicies.com/
+    ======================================================= -->
 
-  <script src="https://cdn.websitepolicies.io/lib/cookieconsent/1.0.3/cookieconsent.min.js" defer></script><script>window.addEventListener("load",function(){window.wpcc.init({"border":"thin","corners":"small","colors":{"popup":{"background":"#222222","text":"#ffffff","border":"#f9f9f9"},"button":{"background":"#f9f9f9","text":"#000000"}},"content":{"href":"https://www.cookiepolicygenerator.com/live.php?token=WtGmfPlABFl8lhAOiAiL2o2ACmFgG2R8"}})});</script>
+    <script src="https://cdn.websitepolicies.io/lib/cookieconsent/1.0.3/cookieconsent.min.js" defer></script><script>window.addEventListener("load",function(){window.wpcc.init({"border":"thin","corners":"small","colors":{"popup":{"background":"#222222","text":"#ffffff","border":"#f9f9f9"},"button":{"background":"#f9f9f9","text":"#000000"}},"content":{"href":"https://www.cookiepolicygenerator.com/live.php?token=WtGmfPlABFl8lhAOiAiL2o2ACmFgG2R8"}})});</script>
 
-</head>
-
-<body>
-
-  <!-- ======= Mobile nav toggle button ======= -->
-  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex flex-column justify-content-center">
-
-    <nav id="navbar" class="navbar nav-menu">
-      <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bi bi-book"></i> <span>Get the book</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bi bi-info-circle"></i> <span>About</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bi bi-save"></i> <span>Notebooks</span></a></li>
-        <li><a href="#community" class="nav-link scrollto"><i class="bi bi-people"></i> <span>Community</span></a></li>
-        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Derived Work <br> and Mentions</span></a></li>
-      <!--<li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
-        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-      -->
-      </ul>
-    </nav><!-- .nav-menu -->
-
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center">
-    <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Learn Python with Jupyter</h1>
-      <p>The book <span class="typed" data-typed-items="developing computational thinking, explaining syntax, with plenty of exercises"></span></p>
-
-      <br>
-      <h5>by <a href="https://sbonaretti.github.io/" target="_blank">Serena Bonaretti</a></h5>
-      <!-- <a href="https://twitter.com/serenabonaretti" target="_blank"                    class="twitter"> <i class="bx bxl-twitter"></i></a>
-      <a href="https://www.linkedin.com/in/serena-bonaretti-1bb9b239/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
-      <!-- <a href="mailto:serena.bonaretti.research@gmail.com" target="_blank"             class="envelope"><i class="bx bxl-envelope"></i></a> -->
-
-      <br>
-      <br>
-      <div class="button-container">
-        <a href="assets/book/learn_python_with_jupyter.pdf" class="button">Get the free book</a>
-        <a href="https://forms.gle/iPiEc4wfW84e8QrS9" target="_blank" class="button">Leave a feedback</a>
-      </div>
-      <br>
-      <h5>Printed version coming <span style="color: #ed6c4f;">this fall!</span> </h5>
-      <br>
-      
-      <!-- <h5>Read about the book on <a href="https://medium.com/p/11214f152159" target="_blank">Project Jupyter's blog</a>! </h5> -->
-
-      <!-- <br>
-      <br>
-      <a href="assets/book/learn_python_with_jupyter.pdf" class="btn-preorder">Leave a feedback!</a> -->
+  </head>
 
 
-      <!-- <a href="assets/sample/learn_python_with_jupyter_sample.pdf" target=_blank class="btn-preorder">Read free sample</a> -->
-      <!--
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
-      -->
+  <body>
 
-    </div>
-  </section><!-- End Hero -->
+    <!---------------------------------------------------------------------------------->
+    <!------------------------------------- NAV BAR ------------------------------------>
+    <!---------------------------------------------------------------------------------->
+    <!-- ======= Mobile nav toggle button ======= -->
+    <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex flex-column justify-content-center">
 
-  <main id="main">
+      <nav id="navbar" class="navbar nav-menu">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bi bi-book"></i> <span>Welcome!</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bi bi-info-circle"></i> <span>About</span></a></li>
+          <li><a href="#get-the-book" class="nav-link scrollto"><i class="bi bi-bag"></i> <span>Get the book</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bi bi-save"></i> <span>Notebooks</span></a></li>
+          <li><a href="#community" class="nav-link scrollto"><i class="bi bi-people"></i> <span>Community</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Derived Work <br> and More</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
 
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>About the Book</h2>
-          <!-- <p>
-            The book that develops computational thinking, explains syntax, and has plenty of exercises
-          </p> -->
-        </div>
-
-        <div class="col-lg-12">
-          <div class=book-description>
-
-            The aim of this book is to teach you <span class="orange_color">coding in Python</span> while developing <span class="orange_color">computational thinking</span>—that is, the way we think when coding.
-            <br>
-            The order of topics is designed to stimulate and strengthen skills such as logic, problem solving, and clean code writing.
-            <br>
-            Python syntax is explained extensively in a simple but precise way, focusing on concepts and vocabulary.
-            <br>
-            Topics include data types (strings, lists, dictionaries, etc.), if/else constructs, for loops, while loops, functions, modules, and object‐oriented programming.
-            <br>
-            Examples are embedded in <span class="orange_color">narrative</span> to provide context and encourage memorization, and they are enriched with suggestions for <span class="orange_color">code pronunciation</span>.
-            <br>
-            The book includes thirty‐eight chapters, each corresponding to a <span class="orange_color">Jupyter Notebook</span> where you can play with the code explained in the text.
-            <br>
-            Chapters contain both <span class="orange_color">theoretical exercises</span>, to verify the understanding of concepts, and <span class="orange_color">coding exercises</span>, to learn by doing.
-            <br>
-            Exercise solutions are described in the <span class="orange_color">community forum</span>, where you can ask questions and propose alternative solutions.
-            <br>
-            At the end of each chapter, you will find recaps and <span class="orange_color">“in more depth”</span> sections, with suggestions, tips, and curiosities.
-            <br>
-            The book is written in a simple and colloquial language while being precise and detailed.
-            <br>
-            The material of this book was tested and refined over more than a thousand hours of one‐on‐one teaching,
-            <br>with <span class="orange_color">international students of various educational backgrounds</span>.
-            <br>
-            <br>
-            Read more about the book on <a href="https://medium.com/p/11214f152159" target="_blank">Project Jupyter's blog</a>!
-
-          </div>
-        </div>
-
-      </div>
-    </section>
-    <!-- End About Section -->
+    </header><!-- End Header -->
 
 
-    <!-- ======= About Section ======= -->
-    <!-- <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>About the Book</h2>
-          <p> The book that develops computational thinking, explains syntax, and has plenty of exercises
-
-          </p>
-        </div>
-
-        <div class="col-lg-12" align="center">
-          <a href="assets/sample/learn_python_with_jupyter_sample.pdf" target=_blank class="about-button">Read free sample</a>
-        </div>
-
-      </div>
-    </section> -->
-    <!-- End About Section -->
-
-
-
-
-    <!-- ======= Facts Section ======= -->
-
-    <!-- <section id="facts" class="facts">
-      <div class="container" data-aos="fade-up">
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-file-text"></i>
-              <span data-purecounter-start="0" data-purecounter-end="38" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Chapters with Jupyter Notebooks</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
-            <div class="count-box">
-              <i class="bi bi-people-fill"></i>
-              <span data-purecounter-start="0" data-purecounter-end="76" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Theory exercises</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="bi bi-keyboard"></i>
-              <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Coding exercises</p>
-            </div>
-          </div>
-
-      </div>
-    </section> -->
-    <!-- End Facts Section -->
-
-
-    <!-- ======= Facts Section ======= -->
-  <section id="facts" class="facts">
-    <div class="container" id="community" data-aos="fade-up">
-
-      <div class="section-title">
-        <h2>PRINTED VERSION COMING THIS FALL!</h2>
+    <!---------------------------------------------------------------------------------->
+    <!-------------------------------------- HERO -------------------------------------->
+    <!---------------------------------------------------------------------------------->
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex flex-column justify-content-center">
+      <div class="container" data-aos="zoom-in" data-aos-delay="100">
         
-
-        <p>Get a <a href="https://forms.gle/5JStWX79L4JXndyr5" target = "_blank" >notification</a>  when the printed book is available!  
-          <br>
-           
-        </p>
+        <!-- Title, subtitle, and author -->
+        <h1>Learn Python with Jupyter</h1>
+        <p>The book <span class="typed" data-typed-items="developing computational thinking, explaining syntax, with plenty of exercises"></span></p>
+        <br>
+        <h5 >by <a href="https://sbonaretti.github.io/" target="_blank">Serena Bonaretti</a></h5>
 
         <br>
         <br>
 
-        <!-- <div class="row">  -->
+        <!-- Buttons -->
+        <div class="button-container">
+          <a href="#get-the-book" class="button">Get the book</a>
+          <a href="https://forms.gle/iPiEc4wfW84e8QrS9" target="_blank" class="button">Leave a feedback</a>
+        </div>
 
-          <!-- <div class="col-lg-4 col-md-6 align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box iconbox-blue">
-              <div class="step">1</div>
-              <br>
-              <h4><a href="https://github.com/">Create a GitHub account</a> </h4>
-              <p>If you don't have it already, <a href="https://github.com/">create</a> a free account</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6  align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box iconbox-blue">
-              <div class="step">2</div>
-              <br>
-              <h4><a href="https://docs.google.com/forms/d/e/1FAIpQLSd46-n4qYWpcME0GYapXd43r8BcyswoyXhUuqPWsfyErosxkw/viewform" target = "_blank">Join us</a></h4>
-              <p>Send us a <a href="https://docs.google.com/forms/d/e/1FAIpQLSd46-n4qYWpcME0GYapXd43r8BcyswoyXhUuqPWsfyErosxkw/viewform" target = "_blank">request</a> to be part of the community</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box iconbox-blue">
-              <div class="step">3</div>
-              <br>
-              <h4>Welcome!</h4>
-              <p>You will get a notification in less than 24 hours</p>
-            </div>
-          </div> -->
-
-        <!-- </div> -->
       </div>
-    </div>
-  </section><!-- End Resume Section -->
+    </section><!-- End Hero -->
 
 
-    <!-- ======= Skills Section ======= -->
-    <!-- <section id="skills" class="skills section-bg">
+    <!---------------------------------------------------------------------------------->
+    <!-------------------------------------- MAIN -------------------------------------->
+    <!---------------------------------------------------------------------------------->
+    <main id="main">
+
+      <!---------------------------------------------------------------------------------->
+      <!--------------------------------- ABOUT THE BOOK --------------------------------->
+      <!---------------------------------------------------------------------------------->
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+
+          <!-- Title -->
+          <div class="section-title">
+            <h2>About the Book</h2>
+          </div>
+
+          <!-- Book description -->
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <div class=book-description>
+
+                The aim of <strong>Learn Python with Jupyter</strong> is to help you develop <span class="orange_color">computational thinking</span>—that is, the way we think when coding–while learning <span class="orange_color">to code in Python</span>. 
+                <!-- You will learn Python syntax and additional computational skills such as logical reasoning, problem solving, and writing clean code. -->
+                
+                <br>
+                <br>
+
+                <strong>Learn Python with Jupyter</strong> includes thirty‐eight chapters, each paired with a 
+                <a href="#resume" style="text-decoration: underline;">Jupyter Notebook</a>
+                where you can play with the code explained in the text.
+                The code is embedded in <span class="orange_color">narrative</span> to provide context and support memorization, and it is enriched with suggestions for <span class="orange_color">code pronunciation</span>.
+                Chapters contain both <span class="orange_color">theory exercises</span>, to verify the understanding of concepts, and <span class="orange_color">coding exercises</span>, to learn by doing.
+                Exercise solutions are shared in the 
+                <a href="#community" style="text-decoration: underline;">community forum</a>,  
+                where you can ask questions and propose alternative approaches.
+                And at the end of each chapter, you will find <span class="orange_color">recaps</span>
+                and <span class="orange_color">“in more depth”</span> sections, with suggestions, tips, and curiosities.
+                
+                <br>
+                <br>
+                
+                <strong>Learn Python with Jupyter</strong> is written in a simple and approachable style while remaining precise and detailed.
+                Its content has been tested and refined over more than a thousand hours of one‐on‐one teaching
+                with <span class="orange_color">international students of various educational backgrounds</span>.
+                <!-- Read more about the book on <a href="https://medium.com/p/11214f152159" target="_blank" style="text-decoration: underline;">Project Jupyter's blog</a>! -->
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- End About Section -->
+
+      
+
+      <!---------------------------------------------------------------------------------->
+      <!---------------------------------- GET THE BOOK ---------------------------------->
+      <!---------------------------------------------------------------------------------->
+      <!-- ======= Facts Section ======= -->
+      <section id="facts" class="facts">
+        <div class="container" id="get-the-book" data-aos="fade-up">
+
+          <div class="section-title">
+            <h2>GET THE BOOK!</h2>
+
+            <div class="row justify-content-center ">
+              
+              <div class="row">  <!-- need to keep this to have following content center  -->
+              </div>
+
+                <!-- BUY THE BOOK -->
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+                  <div class="icon-box iconbox-orange ">
+                    <!-- Title -->
+                    <h4>Buy the paperback</h4>
+                    <!-- Figure -->
+                    <img src="assets/img/hero-bg_media.png" alt="Website banner" style="max-width: 100%; height: auto;">
+                    <br>
+                    <br>
+                    <!-- Button -->
+                    <a href="https://www.amazon.com/dp/B0G8D8JVZX" class="button">Buy the book*</a>
+                    <br>
+                    <br>
+                    <!-- Other amazon stores -->
+                    <span style="font-size: 12px;">* The book is available also on the Amazon shops 
+                      <a href="https://www.amazon.co.uk/dp/B0G8D8JVZX">.co.uk</a>,
+                      <a href="https://www.amazon.de/dp/B0G8D8JVZX" >.de</a>,
+                      <a href="https://www.amazon.fr/dp/B0G8D8JVZX" >.fr</a>,
+                      <a href="https://www.amazon.es/dp/B0G8D8JVZX" >.es</a>,
+                      <a href="https://www.amazon.it/dp/B0G8D8JVZX" >.it</a>,
+                      <a href="https://www.amazon.nl/dp/B0G8D8JVZX" >.nl</a>,
+                      <a href="https://www.amazon.pl/dp/B0G8D8JVZX" >.pl</a>,
+                      <a href="https://www.amazon.se/dp/B0G8D8JVZX" >.se</a>,
+                      <a href="https://www.amazon.com.be/dp/B0G8D8JVZX" >.com.be</a>,
+                      <a href="https://www.amazon.ie/dp/B0G8D8JVZX" >.ie</a>,
+                      <a href="https://www.amazon.ca/dp/B0G8D8JVZX" >.ca</a>
+                    </span>
+                  </div>
+                </div>
+
+                <!-- DOWNLOAD THE EBOOK -->
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon-box iconbox-blue">
+                    <!-- Title -->
+                    <h4>Download the free ebook</h4> 
+                    <!-- Figure -->
+                    <img src="assets/img/hero-bg_media_ebook.png" alt="Website banner" style="max-width: 100%; height: auto;">
+                    <br>
+                    <br>
+                    <!-- Button download the book -->
+                    <a href="assets/book/Learn_Python_with_Jupyter-Serena_Bonaretti.pdf" class="button">Get the free ebook</a>
+                    <br>
+                    <br>
+                    <!-- Button Buy me a coffee -->
+                    <span style="font-size: 14px;">If you want to support my work:</span> 
+                    <br>
+                    <a href="https://buymeacoffee.com/serenabonaretti" target="_blank" class="button" >☕ Buy me a coffee</a>
+                    <!-- style="font-family: 'Cookie', cursive; text-transform: capitalize;" -->
+                  </div>
+                </div>
+
+            </div>
+          </div>  
+        </div>
+      </section><!-- End Resume Section -->
+
+
+
+
+
+      <!---------------------------------------------------------------------------------->
+      <!------------------------------- DOWNLOAD NOTEBOOKS ------------------------------->
+      <!---------------------------------------------------------------------------------->
+      <!-- ======= RESUME SECTION ======= -->
+        
+      <section id="resume" class="resume">
+        <div class="container" data-aos="fade-up">
+
+          <!-- Title + subtitle -->
+          <div class="section-title">
+            <h2>DOWNLOAD THE JUPYTER NOTEBOOKS</h2>
+            <p>Get the Notebooks for the published chapters. You can download them one by one from below, or all of them at once <a href="https://github.com/LearnPythonWithJupyter/Notebooks" class="btn-preorder">here</a></p>
+            <p>You can also download the notebooks in <a href="https://github.com/incognia/Notebooks" class="btn-preorder">Español de México</a> (translation by <a href="https://incognia.github.io/" class="btn-preorder">Rodrigo Ernesto Álvarez Aguilera)</a> 
+          </div>
+
+          <div class="row">
+
+            <!--Start column on the left-->
+            <div class="col-lg-6">
+              <h3 class="resume-title"></h3>
+
+              <!-- Part 1 -->
+              <div class="resume-item pb-0">
+                <h4>PART 1: Creating the basics</h4>
+                <ol start="1">
+                  <a href="assets/notebooks/01_string_input_print.ipynb" onclick="download"><li>Text, questions, and art <br> <i>strings, input(), and print()</i></li></a>
+                  <a href="assets/notebooks/02_variables.ipynb" onclick="download"><li>Events and favorites <br>  <i>Variables and string concatenation</i></li></a>
+                </ol>
+              </div>
+
+              <!-- Part 2 -->
+              <div class="resume-item pb-0">
+                <h4>PART 2: Introduction to lists and if/else statements</h4>
+                <ol start="3">
+                  <a href="assets/notebooks/03_list_if_in_else.ipynb" onclick="download"><li>In a bookstore <br> <i>Lists and if... in... / else...</i></li></a>
+                  <a href="assets/notebooks/04_list_append_remove.ipynb" onclick="download"><li>Grocery shopping <br>  <i>List methods: .append() and .remove()</i></li></a>
+                  <a href="assets/notebooks/05_list_index_pop_insert.ipynb" onclick="download"><li>Customizing the burger menu <br>  <i>List methods: .index(), .pop(), and .insert()</i></li></a>
+                  <a href="assets/notebooks/06_list_slicing.ipynb" onclick="download"><li>Traveling around the world <br>  <i>List slicing</i></li></a>
+                  <a href="assets/notebooks/07_list_slicing_use.ipynb" onclick="download"><li>Senses, planets, and a house <br>  <i>Changing, adding, and removing list elements using slicing</i></li></a>
+                </ol>
+              </div>
+
+              <!-- Part 3 -->
+              <div class="resume-item pb-0">
+                <h4>PART 3: Introduction to the for loop</h4>
+                <ol start="8">
+                  <a href="assets/notebooks/08_for_range.ipynb" onclick="download"><li>My friends' favorite dishes<br> <i>for... in range()</i></li></a>
+                  <a href="assets/notebooks/09_for_loop_if_equals.ipynb" onclick="download"><li>At the zoo<br> <i>For loop with if... == ... / else</i></li></a>
+                  <a href="assets/notebooks/10_for_search.ipynb" onclick="download"><li>Where are my gloves?<br> <i>For loop for searching</i></li></a>
+                  <a href="assets/notebooks/11_for_change_list.ipynb" onclick="download"><li>Cleaning the mailing list<br>  <i>For loop to change list elements</i></li></a>
+                  <a href="assets/notebooks/12_for_create_list.ipynb" onclick="download"><li>What a mess at the bookstore!<br>  <i>For loop to create new lists</i></li></a>
+                </ol>
+              </div>
+
+              <!-- Part 4 -->
+              <div class="resume-item pb-0">
+                <h4>PART 4: Numbers and algorithms</h4>
+                <ol start="13">
+                  <a href="assets/notebooks/13_numbers.ipynb" onclick="download"><li>Implementing a calculator<br>  <i>Integers, floats, and arithmetic operations</i></li></a>
+                  <a href="assets/notebooks/14_list_of_numbers.ipynb" onclick="download"><li>Playing with numbers<br>  <i>Common operations with lists of numbers</i></li></a>
+                  <a href="assets/notebooks/15_random.ipynb" onclick="download"><li>Fortune cookies<br>  <i>The Python module</i> random</li></a>
+                  <a href="assets/notebooks/16_intro_to_algos.ipynb" onclick="download"><li>Rock paper scissors<br>  <i>Introduction to algorithms</i></li></a>
+                </ol>
+              </div>
+
+              <!-- Part 5 -->
+              <div class="resume-item pb-0">
+                <h4>PART 5: The while loop and conditions </h4>
+                <ol start="17">
+                  <a href="assets/notebooks/17_while_loop.ipynb" onclick="download"><li>Do you want more candies?<br>  <i>The while loop</i></li></a>
+                  <a href="assets/notebooks/18_while_conditions.ipynb" onclick="download"><li>Animals, unique numbers, and sums<br>  <i>Various kinds of conditions</i></li></a>
+                  <a href="assets/notebooks/19_combining_conditions.ipynb" onclick="download"><li>And, or, not, not in<br>  <i>Combining or reversing conditions</i></li></a>
+                  <a href="assets/notebooks/20_booleans.ipynb" onclick="download"><li>Behind the scenes of comparisons and conditions<br>  <i>Booleans</i></li></a>
+                </ol>
+              </div>
+
+            </div>
+
+            <!--Start column on the right-->
+            <div class="col-lg-6">
+              <h3 class="resume-title"></h3>
+
+              <!-- Part 6 -->
+              <div class="resume-item pb-0">
+                <h4>PART 6: Focus on lists and for loop </h4>
+                <ol start="21">
+                  <a href="assets/notebooks/21_list_overview.ipynb" onclick="download"><li>Overview of lists<br> <i>Operations, methods, and tricks</i></li></a>
+                  <a href="assets/notebooks/22_for_overview.ipynb" onclick="download" ><li>More about the for loop<br> <i>Various ways of repeating commands on lists and beyond</i></li></a>
+                  <a href="assets/notebooks/23_list_of_lists.ipynb" onclick="download" ><li>Lists of lists<br>  <i>Slicing, nested for loops, and flattening</i></li></a>
+                </ol>
+              </div>
+
+              <!-- Part 7 -->
+              <div class="resume-item pb-0">
+                <h4>PART 7: Dictionaries and overview of strings</h4>
+                <ol start="24">
+                  <a href="assets/notebooks/24_dictionaries.ipynb" onclick="download" ><li>Inventory at the English bookstore<br> <i>Dictionaries</i></li></a>
+                  <a href="assets/notebooks/25_dictionary_list.ipynb" onclick="download" ><li>Trip to Switzerland<br>  <i>Dictionaries with lists as values</i></li></a>
+                  <a href="assets/notebooks/26_dictionary_use.ipynb" onclick="download" ><li>Counting, compressing, and sorting<br>  <i>What are dictionaries for?</i></li></a>
+                  <a href="assets/notebooks/27_strings_overview.ipynb" onclick="download" ><li>Overview of strings<br>  <i>Operations, methods, and printing</i></li></a>
+                </ol>
+              </div>
+
+              <!-- Part 8 -->
+              <div class="resume-item pb-0">
+                <h4>PART 8: Functions </h4>
+                <ol start="28">
+                  <a href="assets/notebooks/28_function_inputs.ipynb" onclick="download" ><li>Printing Thank you cards<br> <i>Function inputs</i></li></a>
+                  <a href="assets/notebooks/29_function_outputs.ipynb" onclick="download" ><li>Login database for an online store<br>  <i>Function outputs and modular design</i></li></a>
+                  <a href="assets/notebooks/30_function_io_extra.ipynb" onclick="download" ><li>Free ticket at the museum<br>  <i>Input validation and output variations</i></li></a>
+                  <a href="assets/notebooks/31_recursion.ipynb" onclick="download" ><li>Factorials<br>  <i>Recursive functions</i></li></a>
+                  <!-- <li>Jupyter notebooks and modules<br>  <i>Working with Jupyter Notebook and an IDE</i></li> -->
+                  <a href="assets/notebooks/32_modules.ipynb" onclick="download" >
+                    <li>Jupyter notebooks and modules<br>  
+                      <i>Working with Jupyter Notebook and an IDE</i></a><br>
+                    (additional file: <a href="assets/notebooks/setup_database.py" onclick="download" >setup_database.py</a>)
+                  </li>
+
+                </ol>
+              </div>
+
+              <!-- Part 9 -->
+              <div class="resume-item pb-0">
+                <h4>PART 9: Last bits of basic Python </h4>
+                <ol start="33">
+                  <a href="assets/notebooks/33_rw_txt_file.ipynb" onclick="download" >
+                    <li>Birthday presents<br> 
+                      <i>Reading and writing text files</i></a><br>
+                      (additional files: <a href="assets/notebooks/33_purchases.txt" onclick="download" >33_purchases.txt</a>, <a href="assets/notebooks/actors.txt" onclick="download" >actors.txt</a>)
+                    </li>  
+                  <a href="assets/notebooks/34_python_more.ipynb" onclick="download" ><li>What’s more in Python?<br>  <i>Additional types, keywords, built-in functions, and modules</i></li></a>
+                </ol>
+              </div>
+
+              <!-- Part 10 -->
+              <div class="resume-item pb-0">
+                <h4>PART 10: Object oriented programming </h4>
+                <ol start="35">
+                  <a href="assets/notebooks/35_classes_objects.ipynb" onclick="download" ><li>Let's build an online store!<br>  <i>Classes and objects, attributes and methods</i></li></a>
+
+                  <a href="assets/notebooks/36_encapsulation.ipynb" onclick="download" ><li>36. Securing the online store<br>  <i>Encapsulation</i></li></a>
+                
+                  <a href="assets/notebooks/37_inheritance.ipynb" onclick="download" ><li>How can I add a book sample?<br>  <i>Inheritance</i></li></a>
+
+                  <a href="assets/notebooks/38_polymorphism.ipynb" onclick="download" ><li>Customizing the coupon for electronics<br>  <i>Polymorphism</i></li></a>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section><!-- End Resume Section -->
+
+
+
+      <!---------------------------------------------------------------------------------->
+      <!--------------------------------- LPWJ COMMUNITY --------------------------------->
+      <!---------------------------------------------------------------------------------->
+      <!-- ======= Facts Section ======= -->
+      <section id="facts" class="facts">
+        <div class="container" id="community" data-aos="fade-up">
+
+          <!-- Title + subtitle -->
+          <div class="section-title">
+            
+            <h2>Join the LPWJ community</h2>
+            <p>The Learn Python with Jupyter (LPWJ) community is a free space where you can find exercise solutions and ask questions
+              <br>
+              Join us in 3 easy steps!
+            </p>
+          </div>
+
+          <br>
+          <br>
+
+          <div class="row">
+            
+            <!-- Card 1: Create GitHub account -->
+            <div class="col-lg-4 col-md-6 align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box iconbox-blue">
+                <div class="step">1</div>
+                <br>
+                <h4><a href="https://github.com/">Create a GitHub account</a> </h4>
+                <p>If you don't have it already, <a href="https://github.com/">create</a> a free account</p>
+              </div>
+            </div>
+
+            <!-- Card 2: Join us -->
+            <div class="col-lg-4 col-md-6  align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+              <div class="icon-box iconbox-blue">
+                <div class="step">2</div>
+                <br>
+                <h4><a href="https://docs.google.com/forms/d/e/1FAIpQLSd46-n4qYWpcME0GYapXd43r8BcyswoyXhUuqPWsfyErosxkw/viewform" target = "_blank">Join us</a></h4>
+                <p>Send us a <a href="https://docs.google.com/forms/d/e/1FAIpQLSd46-n4qYWpcME0GYapXd43r8BcyswoyXhUuqPWsfyErosxkw/viewform" target = "_blank">request</a> to be part of the community</p>
+              </div>
+            </div>
+
+            <!-- Card 3: Welcome! -->
+            <div class="col-lg-4 col-md-6 align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+              <div class="icon-box iconbox-blue">
+                <div class="step">3</div>
+                <br>
+                <h4>Welcome!</h4>
+                <p>You will get a notification in less than 24 hours</p>
+              </div>
+            </div>
+
+          </div>
+          
+        </div>
+      </section><!-- End Resume Section -->
+
+
+      <!---------------------------------------------------------------------------------->
+      <!-------------------- DERIVED WORK, MENTIONS, AND PRESENTATIONS ------------------->
+      <!---------------------------------------------------------------------------------->
+      <!-- ======= Portfolio Section ======= -->
+      <section id="portfolio" class="about">
+        <div class="container" data-aos="fade-up">
+
+          <!-- Title + subtitle -->
+          <div class="section-title">
+            <h2>DERIVED WORK, MENTIONS, AND BOOK PRESENTATIONS</h2>
+            <p>Derived work using <i>Learn Python with Jupyter</i>, mentions, and book presentations</p>
+          </div>
+
+          <!-- Derived work -->
+          <div class="row">
+            <div class="col-lg-12 pt-6 pt-lg-0 content">
+              
+              <h4>DERIVED WORK</h4>
+              
+              <div class="row">  
+                <div class="col-lg-12">
+                  
+                  <ul>
+                    <li><i class="bi bi-chevron-right"></i> <a class="a-about" href="https://github.com/incognia/Juno">Juno | JupyterLab-Based STEM Learning Environment - By Rodrigo Ernesto Álvarez Aguilera</a><span> An immersive STEM learning environment for middle school students using JupyterLab, leveraging Docker Compose to orchestrate container deployments 
+                    </span></li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <br>
+
+          <!-- Mentions -->
+          <div class="row">
+            <div class="col-lg-12 pt-6 pt-lg-0 content">
+
+              <h4>MENTIONS</h4>
+
+              <div class="row">
+                <div class="col-lg-12">
+                  
+                  <ul>
+                    <li><i class="bi bi-chevron-right"></i> <a class="a-about" href="https://www.linkedin.com/feed/update/urn:li:activity:7139969588032655360/">Parul Pandey - LinkedIn blog post</a></li>
+                    
+                    <li><i class="bi bi-chevron-right"></i> <a class="a-about" href="https://stefanogatti.substack.com/p/laculturadeldato-068">La cultura del dato - Numero 68</a></li>
+                    
+                    <li><i class="bi bi-chevron-right"></i> <a class="a-about" href="https://www.oreilly.com/radar/radar-trends-to-watch-june-2023/#:~:text=AI%2C%20and%20specifically%20large%20language,virtually%20every%20branch%20of%20technology.">Radar Trends to Watch: June 2023 (O'Reilly)</a></li>
+                    
+                    <li><i class="bi bi-chevron-right"></i> <a class="a-about" href="https://pycoders.com/issues/576">PyCoder's Weekly - Issue 576</a></li>
+                    
+                    <li><i class="bi bi-chevron-right"></i> <a class="a-about" href="https://astrojuanlu.substack.com/p/episodio-57">Noticiero Python y Datos - Episodio 57</a></li>
+                  </ul>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <br>
+
+          <!-- Book presentations -->
+          <div class="row">
+            <div class="col-lg-12 pt-6 pt-lg-0 content">
+              
+              <h4>BOOK PRESENTATIONS</h4>
+              
+              <div class="row">
+                <div class="col-lg-12">
+                  
+                  <ul>
+                    <li><i class="bi bi-chevron-right"></i> <a class="a-about" href="https://www.youtube.com/live/0Fp_lQ1oimE?feature=shared&t=6837">Introducing the ORMIR community and the book “Learn Python with Jupyter” - Python Pizza Hamburg (min. 1:53:58)</a></li>
+                    
+                    <li><i class="bi bi-chevron-right"></i> <a class="a-about" href="https://www.linkedin.com/posts/pyladies-hamburg_pyladieshh-pyladiesmeetup-learnpython-activity-7132368754516062208-32TW?utm_source=share&utm_medium=member_desktop">Hands on bookclub workshop: “Learn Python with Jupyter” - PyLadies Hamburg</a></li>
+                    
+                    <li><i class="bi bi-chevron-right"></i> <a class="a-about" href="https://stefanogatti.substack.com/p/laculturadeldato-075">La cultura del dato - Numero 75</a></li>
+                    
+                    <li><i class="bi bi-chevron-right"></i> <a class="a-about" href="https://www.youtube.com/watch?v=56GFrX5INrQ&t=1h0m20s">Introducing “Learn Python with Jupyter” - JupyterCon 2023 (min. 1:00:20)</a></li>
+                    
+                    <li><i class="bi bi-chevron-right"></i> <a class="a-about" href="https://medium.com/p/11214f152159">Introducing “Learn Python with Jupyter” - Project Jupyter's blog</a></li>
+                  </ul>
+
+                </div>   
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section><!-- End Resume Section -->
+
+    </main><!-- End #main -->
+
+
+
+
+    <!---------------------------------------------------------------------------------->
+    <!------------------------------------- FOOTER ------------------------------------->
+    <!---------------------------------------------------------------------------------->
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
       <div class="container">
 
-        <div class="row skills-content">
-
-          <div class="col-lg-12">
-            <h2>PRINTED VERSION COMING THIS SUMMER!</h2> -->
-
-            <!-- <div class="progress"> -->
-              <!-- <span class="skill">BOOK <i class="val">COMPLETED!</i></span> -->
-              <!-- <span class="skill">BOOK COMPLETION: <i class="val">100%!</i></span> -->
-              <!-- <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div> -->
-            <!-- <center>Next upload: <b>Chapters 35 and 36</b> on <b>June 18</b> </center> -->
-          <!-- </div> -->
-
-        <!-- </div>
-
-      </div>
-    </section> -->
-    <!-- End Skills Section -->
-
-
-
-
-
-    <!-- ======= DOWNLOAD SECTION ======= -->
-    <section id="resume" class="resume">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>DOWNLOAD THE JUPYTER NOTEBOOKS</h2>
-          <p>Get the Notebooks for the published chapters. You can download them one by one from below, or all of them at once <a href="https://github.com/LearnPythonWithJupyter/Notebooks" class="btn-preorder">here</a></p>
-          <p>You can download the notebooks in <a href="https://github.com/incognia/Notebooks" class="btn-preorder">Español de México</a> (translation by <a href="https://incognia.github.io/" class="btn-preorder">Rodrigo Ernesto Álvarez Aguilera)</a> 
-        </div>
-
-        <div class="row">
-
-          <!--Start column on the left-->
-          <div class="col-lg-6">
-            <h3 class="resume-title"></h3>
-
-            <div class="resume-item pb-0">
-              <h4>PART 1: Creating the basics</h4>
-              <ol start="1">
-                <a href="assets/notebooks/01_string_input_print.ipynb" onclick="download"><li>Text, questions, and art <br> <i>strings, input(), and print()</i></li></a>
-                <a href="assets/notebooks/02_variables.ipynb" onclick="download"><li>Events and favorites <br>  <i>Variables and string concatenation</i></li></a>
-              </ol>
-            </div>
-
-            <div class="resume-item pb-0">
-              <h4>PART 2: Introduction to lists and if/else statements</h4>
-              <ol start="3">
-                <a href="assets/notebooks/03_list_if_in_else.ipynb" onclick="download"><li>In a bookstore <br> <i>Lists and if... in... / else...</i></li></a>
-                <a href="assets/notebooks/04_list_append_remove.ipynb" onclick="download"><li>Grocery shopping <br>  <i>List methods: .append() and .remove()</i></li></a>
-                <a href="assets/notebooks/05_list_index_pop_insert.ipynb" onclick="download"><li>Customizing the burger menu <br>  <i>List methods: .index(), .pop(), and .insert()</i></li></a>
-                <a href="assets/notebooks/06_list_slicing.ipynb" onclick="download"><li>Traveling around the world <br>  <i>List slicing</i></li></a>
-                <a href="assets/notebooks/07_list_slicing_use.ipynb" onclick="download"><li>Senses, planets, and a house <br>  <i>Changing, adding, and removing list elements using slicing</i></li></a>
-              </ol>
-            </div>
-
-            <div class="resume-item pb-0">
-              <h4>PART 3: Introduction to the for loop</h4>
-              <ol start="8">
-                <a href="assets/notebooks/08_for_range.ipynb" onclick="download"><li>My friends' favorite dishes<br> <i>for... in range()</i></li></a>
-                <a href="assets/notebooks/09_for_loop_if_equals.ipynb" onclick="download"><li>At the zoo<br> <i>For loop with if... == ... / else</i></li></a>
-                <a href="assets/notebooks/10_for_search.ipynb" onclick="download"><li>Where are my gloves?<br> <i>For loop for searching</i></li></a>
-                <a href="assets/notebooks/11_for_change_list.ipynb" onclick="download"><li>Cleaning the mailing list<br>  <i>For loop to change list elements</i></li></a>
-                <a href="assets/notebooks/12_for_create_list.ipynb" onclick="download"><li>What a mess at the bookstore!<br>  <i>For loop to create new lists</i></li></a>
-              </ol>
-            </div>
-
-            <div class="resume-item pb-0">
-              <h4>PART 4: Numbers and algorithms</h4>
-              <ol start="13">
-                <a href="assets/notebooks/13_numbers.ipynb" onclick="download"><li>Implementing a calculator<br>  <i>Integers, floats, and arithmetic operations</i></li></a>
-                <a href="assets/notebooks/14_list_of_numbers.ipynb" onclick="download"><li>Playing with numbers<br>  <i>Common operations with lists of numbers</i></li></a>
-                <a href="assets/notebooks/15_random.ipynb" onclick="download"><li>Fortune cookies<br>  <i>The Python module</i> random</li></a>
-                <a href="assets/notebooks/16_intro_to_algos.ipynb" onclick="download"><li>Rock paper scissors<br>  <i>Introduction to algorithms</i></li></a>
-              </ol>
-            </div>
-
-            <div class="resume-item pb-0">
-              <h4>PART 5: The while loop and conditions </h4>
-              <ol start="17">
-                <a href="assets/notebooks/17_while_loop.ipynb" onclick="download"><li>Do you want more candies?<br>  <i>The while loop</i></li></a>
-                <a href="assets/notebooks/18_while_conditions.ipynb" onclick="download"><li>Animals, unique numbers, and sums<br>  <i>Various kinds of conditions</i></li></a>
-                <a href="assets/notebooks/19_combining_conditions.ipynb" onclick="download"><li>And, or, not, not in<br>  <i>Combining or reversing conditions</i></li></a>
-                <a href="assets/notebooks/20_booleans.ipynb" onclick="download"><li>Behind the scenes of comparisons and conditions<br>  <i>Booleans</i></li></a>
-              </ol>
-            </div>
-
-          </div>
-
-          <!--Start column on the right-->
-          <div class="col-lg-6">
-            <h3 class="resume-title"></h3>
-
-            <div class="resume-item pb-0">
-              <h4>PART 6: Focus on lists and for loop </h4>
-              <ol start="21">
-                <a href="assets/notebooks/21_list_overview.ipynb" onclick="download"><li>Overview of lists<br> <i>Operations, methods, and tricks</i></li></a>
-                <a href="assets/notebooks/22_for_overview.ipynb" onclick="download" ><li>More about the for loop<br> <i>Various ways of repeating commands on lists and beyond</i></li></a>
-                <a href="assets/notebooks/23_list_of_lists.ipynb" onclick="download" ><li>Lists of lists<br>  <i>Slicing, nested for loops, and flattening</i></li></a>
-              </ol>
-            </div>
-
-            <div class="resume-item pb-0">
-              <h4>PART 7: Dictionaries and overview of strings</h4>
-              <ol start="24">
-                <a href="assets/notebooks/24_dictionaries.ipynb" onclick="download" ><li>Inventory at the English bookstore<br> <i>Dictionaries</i></li></a>
-                <a href="assets/notebooks/25_dictionary_list.ipynb" onclick="download" ><li>Trip to Switzerland<br>  <i>Dictionaries with lists as values</i></li></a>
-                <a href="assets/notebooks/26_dictionary_use.ipynb" onclick="download" ><li>Counting, compressing, and sorting<br>  <i>What are dictionaries for?</i></li></a>
-                <a href="assets/notebooks/27_strings_overview.ipynb" onclick="download" ><li>Overview of strings<br>  <i>Operations, methods, and printing</i></li></a>
-              </ol>
-            </div>
-
-            <div class="resume-item pb-0">
-              <h4>PART 8: Functions </h4>
-              <ol start="28">
-                <a href="assets/notebooks/28_function_inputs.ipynb" onclick="download" ><li>Printing Thank you cards<br> <i>Function inputs</i></li></a>
-                <a href="assets/notebooks/29_function_outputs.ipynb" onclick="download" ><li>Login database for an online store<br>  <i>Function outputs and modular design</i></li></a>
-                <a href="assets/notebooks/30_function_io_extra.ipynb" onclick="download" ><li>Free ticket at the museum<br>  <i>Input validation and output variations</i></li></a>
-                <a href="assets/notebooks/31_recursion.ipynb" onclick="download" ><li>Factorials<br>  <i>Recursive functions</i></li></a>
-                <!-- <li>Jupyter notebooks and modules<br>  <i>Working with Jupyter Notebook and an IDE</i></li> -->
-                <a href="assets/notebooks/32_modules.ipynb" onclick="download" >
-                  <li>Jupyter notebooks and modules<br>  
-                    <i>Working with Jupyter Notebook and an IDE</i></a><br>
-                  (additional file: <a href="assets/notebooks/setup_database.py" onclick="download" >setup_database.py</a>)
-                </li>
-
-              </ol>
-            </div>
-
-            <div class="resume-item pb-0">
-              <h4>PART 9: Last bits of basic Python </h4>
-              <ol start="33">
-                <a href="assets/notebooks/33_rw_txt_file.ipynb" onclick="download" >
-                  <li>Birthday presents<br> 
-                    <i>Reading and writing text files</i></a><br>
-                    (additional files: <a href="assets/notebooks/33_purchases.txt" onclick="download" >33_purchases.txt</a>, <a href="assets/notebooks/actors.txt" onclick="download" >actors.txt</a>)
-                  </li>  
-                <a href="assets/notebooks/34_python_more.ipynb" onclick="download" ><li>What’s more in Python?<br>  <i>Additional types, keywords, built-in functions, and modules</i></li></a>
-              </ol>
-            </div>
-
-            <div class="resume-item pb-0">
-              <h4>PART 10: Object oriented programming </h4>
-              <ol start="35">
-                <a href="assets/notebooks/35_classes_objects.ipynb" onclick="download" ><li>Let's build an online store!<br>  <i>Classes and objects, attributes and methods</i></li></a>
-
-                <a href="assets/notebooks/36_encapsulation.ipynb" onclick="download" ><li>36. Securing the online store<br>  <i>Encapsulation</i></li></a>
-              
-                <a href="assets/notebooks/37_inheritance.ipynb" onclick="download" ><li>How can I add a book sample?<br>  <i>Inheritance</i></li></a>
-
-                <a href="assets/notebooks/38_polymorphism.ipynb" onclick="download" ><li>Customizing the coupon for electronics<br>  <i>Polymorphism</i></li></a>
-              </ol>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Resume Section -->
-
-
-
-
-  <!-- ======= Facts Section ======= -->
-  <section id="facts" class="facts">
-    <div class="container" id="community" data-aos="fade-up">
-
-      <div class="section-title">
-        <h2>Join the LPWJ community</h2>
-        <p>The Learn Python with Jupyter (LPWJ) community is a free space where you can find exercise solutions and ask questions
-          <br>
-          Join us in 3 easy steps!
-        </p>
-
-        <br>
         <br>
 
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6 align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box iconbox-blue">
-              <div class="step">1</div>
-              <br>
-              <h4><a href="https://github.com/">Create a GitHub account</a> </h4>
-              <p>If you don't have it already, <a href="https://github.com/">create</a> a free account</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6  align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box iconbox-blue">
-              <div class="step">2</div>
-              <br>
-              <h4><a href="https://docs.google.com/forms/d/e/1FAIpQLSd46-n4qYWpcME0GYapXd43r8BcyswoyXhUuqPWsfyErosxkw/viewform" target = "_blank">Join us</a></h4>
-              <p>Send us a <a href="https://docs.google.com/forms/d/e/1FAIpQLSd46-n4qYWpcME0GYapXd43r8BcyswoyXhUuqPWsfyErosxkw/viewform" target = "_blank">request</a> to be part of the community</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box iconbox-blue">
-              <div class="step">3</div>
-              <br>
-              <h4>Welcome!</h4>
-              <p>You will get a notification in less than 24 hours</p>
-            </div>
-          </div>
-
+        <!-- Website license -->
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: [license-url] -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>. Modified by <a href="https://sbonaretti.github.io/" target="_blank">Serena Bonaretti</a>
         </div>
       </div>
-    </div>
-  </section><!-- End Resume Section -->
+    </footer><!-- End Footer -->
 
 
 
-  <section id="portfolio" class="about">
-    <div class="container" data-aos="fade-up">
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-      <div class="section-title">
-        <h2>DERIVED WORK, MENTIONS, AND BOOK PRESENTATIONS</h2>
-        <p>Work using <i>Learn Python with Jupyter</i>, mentions, and book presentations</p>
-      </div>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
 
-      <div class="row">
-        <div class="col-lg-12 pt-6 pt-lg-0 content">
-          <h4>DERIVED WORK</h4>
-          <div class="row">
-            <div class="col-lg-12">
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <a class="a-about" href="https://github.com/incognia/Juno">Juno | JupyterLab-Based STEM Learning Environment - By Rodrigo Ernesto Álvarez Aguilera</a><span> An immersive STEM learning environment for middle school students using JupyterLab, leveraging Docker Compose to orchestrate container deployments 
-                  <!-- - By <a href="https://incognia.github.io/" class="btn-preorder"></a> -->
-                </span></li>
-              </ul>
-            </div>
-           
-          </div>
-        </div>
-      </div>
+    <!-- Download Jupyter Notebook JS File -->
+    <script src="assets/js/download_jnb.js"></script>
 
-      <br>
-
-      <div class="row">
-        <div class="col-lg-12 pt-6 pt-lg-0 content">
-          <h4>MENTIONS</h4>
-          <div class="row">
-            <div class="col-lg-12">
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <a class="a-about" href="https://www.linkedin.com/feed/update/urn:li:activity:7139969588032655360/">Parul Pandey - LinkedIn blog post</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a class="a-about" href="https://stefanogatti.substack.com/p/laculturadeldato-068">La cultura del dato - Numero 68</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a class="a-about" href="https://www.oreilly.com/radar/radar-trends-to-watch-june-2023/#:~:text=AI%2C%20and%20specifically%20large%20language,virtually%20every%20branch%20of%20technology.">Radar Trends to Watch: June 2023 (O'Reilly)</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a class="a-about" href="https://pycoders.com/issues/576">PyCoder's Weekly - Issue 576</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a class="a-about" href="https://astrojuanlu.substack.com/p/episodio-57">Noticiero Python y Datos - Episodio 57</a></li>
-              </ul>
-            </div>
-           
-          </div>
-        </div>
-      </div>
-
-      <br>
-
-      <div class="row">
-        <div class="col-lg-12 pt-6 pt-lg-0 content">
-          <h4>BOOK PRESENTATIONS</h4>
-          <div class="row">
-            <div class="col-lg-12">
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <a class="a-about" href="https://www.youtube.com/live/0Fp_lQ1oimE?feature=shared&t=6837">Introducing the ORMIR community and the book “Learn Python with Jupyter” - Python Pizza Hamburg (min. 1:53:58)</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a class="a-about" href="https://www.linkedin.com/posts/pyladies-hamburg_pyladieshh-pyladiesmeetup-learnpython-activity-7132368754516062208-32TW?utm_source=share&utm_medium=member_desktop">Hands on bookclub workshop: “Learn Python with Jupyter” - PyLadies Hamburg</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a class="a-about" href="https://stefanogatti.substack.com/p/laculturadeldato-075">La cultura del dato - Numero 75</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a class="a-about" href="https://www.youtube.com/watch?v=56GFrX5INrQ&t=1h0m20s">Introducing “Learn Python with Jupyter” - JupyterCon 2023 (min. 1:00:20)</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a class="a-about" href="https://medium.com/p/11214f152159">Introducing “Learn Python with Jupyter” - Project Jupyter's blog</a></li>
-              </ul>
-            </div>   
-          </div>
-        </div>
-      </div>
-
-
-
-
-
-
-
-      <div class="row">
-    </div>
-  </section><!-- End Resume Section -->
-
-
-
-
-</main><!-- End #main -->
-
-
-
-
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <!-- <h5>Learn Python with Jupyter</h5>
-      <p>by <a href="https://sbonaretti.github.io/" target="_blank">Serena Bonaretti</a></p> -->
-
-      <!-- <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <!-- <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
-        <!-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        <a href="#" class="email"><i class="bx bxl-email"></i></a>
-      </div> -->
-
-      <br>
-      <!-- <div class="copyright">
-        &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
-      </div> -->
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: [license-url] -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>. Modified by <a href="https://sbonaretti.github.io/" target="_blank">Serena Bonaretti</a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
-
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-  <!-- Download Jupyter Notebook JS File -->
-  <script src="assets/js/download_jnb.js"></script>
-
-</body>
-
-<!-- ======= Facts Section ======= -->
-<!--
-<section id="facts" class="facts">
-  <div class="container" data-aos="fade-up">
-    <!--
-    <div class="section-title">
-      <h2>Facts</h2>
-      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-    </div>
-  -->
-  <!--
-    <div class="row">
-
-      <div class="col-lg-3 col-md-6">
-        <div class="count-box">
-          <i class="bi bi-emoji-smile"></i>
-          <span data-purecounter-start="0" data-purecounter-end="38" data-purecounter-duration="1" class="purecounter"></span>
-          <p>Theory notebooks</p>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-        <div class="count-box">
-          <i class="bi bi-journal-richtext"></i>
-          <span data-purecounter-start="0" data-purecounter-end="76" data-purecounter-duration="1" class="purecounter"></span>
-          <p>Theory exercises</p>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-        <div class="count-box">
-          <i class="bi bi-headset"></i>
-          <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span>
-          <p>Coding exercises</p>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-        <div class="count-box">
-          <i class="bi bi-award"></i>
-          <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
-          <p>Awards</p>
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-</section><!-- End Facts Section -->
+  </body>
 
 
 </html>
